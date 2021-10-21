@@ -1,6 +1,8 @@
 #title {
     background-color: #ff4c68;
     color: #fff;
+    position: relative;
+    overflow: hidden;
 }
 
 body {
@@ -136,4 +138,35 @@ h3 {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+@media (max-width: 975px) {
+    .title-image {
+        width: 50%;
+        transform: rotate(0deg);
+        position: static;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding-top: 10%;
+    text-align: center;
+
+}
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    color: #8f8f8f;
+}
+
+#footer .fab {
+    margin: 6px;
+    padding-top: 3%;
 }
