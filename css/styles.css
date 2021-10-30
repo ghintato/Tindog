@@ -140,17 +140,7 @@ h3 {
     padding: 3% 2%;
 }
 
-@media (max-width: 975px) {
-    .title-image {
-        width: 50%;
-        transform: rotate(0deg);
-        position: static;
-    }
-
-    #title {
-        text-align: center;
-    }
-}
+/* cta section */
 
 #cta {
     background-color: #ff4c68;
@@ -169,4 +159,16 @@ h3 {
 #footer .fab {
     margin: 6px;
     padding-top: 3%;
+}
+
+@media (max-width: 975px) {
+    .title-image {
+        width: 50%;
+        transform: rotate(0deg);
+        position: static;
+    }
+
+    #title {
+        text-align: center;
+    }
 }
